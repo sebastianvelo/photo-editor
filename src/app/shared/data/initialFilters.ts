@@ -22,13 +22,6 @@ const initialFilters: Filters = {
     min: 0,
     max: 300
   },
-  dropShadow: {
-    label: "Drop shadow - No anda",
-    initial: 0,
-    unit: "px",
-    min: 0,
-    max: 1000
-  },
   grayScale: {
     label: "Gray scale",
     initial: 0,

@@ -4,7 +4,6 @@ export type FilterKeys =
   | "blur"
   | "brightness"
   | "contrast"
-  | "dropShadow"
   | "grayScale"
   | "hueRotate"
   | "invert"
@@ -16,7 +15,6 @@ interface Filters {
   blur: Filter;
   brightness: Filter;
   contrast: Filter;
-  dropShadow: Filter;
   grayScale: Filter;
   hueRotate: Filter;
   invert: Filter;
