@@ -4,22 +4,22 @@ export type FilterKeys =
   | "blur"
   | "brightness"
   | "contrast"
-  | "grayScale"
+  | "grayscale"
   | "hueRotate"
   | "invert"
   | "opacity"
-  | "saturation"
+  | "saturate"
   | "sepia";
 
 interface Filters {
   blur: Filter;
   brightness: Filter;
   contrast: Filter;
-  grayScale: Filter;
+  grayscale: Filter;
   hueRotate: Filter;
   invert: Filter;
   opacity: Filter;
-  saturation: Filter;
+  saturate: Filter;
   sepia: Filter;
 }
 

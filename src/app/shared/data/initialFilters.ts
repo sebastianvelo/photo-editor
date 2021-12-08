@@ -22,7 +22,7 @@ const initialFilters: Filters = {
     min: 0,
     max: 300
   },
-  grayScale: {
+  grayscale: {
     label: "Gray scale",
     initial: 0,
     unit: "%",
@@ -50,7 +50,7 @@ const initialFilters: Filters = {
     min: 0,
     max: 100
   },
-  saturation: {
+  saturate: {
     label: "Saturation",
     initial: 100,
     unit: "%",

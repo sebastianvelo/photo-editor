@@ -10,7 +10,7 @@ interface ToolbarProps {
 const Toolbar: FunctionComponent<ToolbarProps> = (props: ToolbarProps) => (
     <aside className="bg-black w-1/4 h-screen overflow-y-scroll text-light flex flex-col items-center">
       <h1 className="text-3xl bg-blue-900 w-full text-center p-4">
-        Playground
+        Photoshopn't
       </h1>
       <div className="w-full  px-4">
         {Object.entries(props.filters).map((entry: any) => (
